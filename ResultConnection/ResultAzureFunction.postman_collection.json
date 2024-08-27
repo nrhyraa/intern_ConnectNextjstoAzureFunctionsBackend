@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "62d4ee32-2c41-4fd1-8e7a-236d5f525e5e",
+		"name": "ResultAzureFunction",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37935934"
+	},
+	"item": [
+		{
+			"name": "http://localhost:7071/api/example3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"hyra\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/example3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"example3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
